@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    color: beige;
+}
+
+span {
+    color: brown;
+}
+
+main {
+    background-color: rgb(50, 50, 50);
+    height: calc(100vh - 5rem);
+    color: beige;
+    font-size: 30px;
+}
+
+.dati-password .dati button:active {
+    background-color: green;
+}
+
+.riquadro {
+    height: 3rem;
+    width: 30%;
+}
